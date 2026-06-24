@@ -110,21 +110,18 @@ and activates it from its description (no manual loading needed).
 
 ```bash
 # macOS / Linux
-git clone https://github.com/kennethkhoocy/event-study-cars.git \
-    ~/.claude/skills/event-study-cars
+git clone https://github.com/kennethkhoocy/event-study-cars.git ~/.claude/skills/event-study-cars
 ```
 
 ```powershell
 # Windows (PowerShell)
-git clone https://github.com/kennethkhoocy/event-study-cars.git `
-    "$env:USERPROFILE\.claude\skills\event-study-cars"
+git clone https://github.com/kennethkhoocy/event-study-cars.git "$env:USERPROFILE\.claude\skills\event-study-cars"
 ```
 
 **Project-scoped skill** (checked into one repo, shared with collaborators):
 
 ```bash
-git clone https://github.com/kennethkhoocy/event-study-cars.git \
-    .claude/skills/event-study-cars
+git clone https://github.com/kennethkhoocy/event-study-cars.git .claude/skills/event-study-cars
 ```
 
 Either way, the final path must end in `.../skills/event-study-cars/` with
