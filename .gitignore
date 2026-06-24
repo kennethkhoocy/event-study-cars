@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Engine outputs
+out/
+ar_panel.csv
+car_panel.csv
+test_statistics.csv
+
+# Proprietary / local data and the validation harness (never ship CRSP/WRDS data)
+*.dta
+*.parquet
+secret.csv
+market.csv
+events.csv
+es_cars_validation/
+compare*.py
+compare_models.py
+pull_wrds.py
+dbg.py
